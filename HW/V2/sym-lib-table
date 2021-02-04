@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 8S001_PIR_485_433_V2-rescue)(type Legacy)(uri ${KIPRJMOD}/8S001_PIR_485_433_V2-rescue.lib)(options "")(descr ""))
+)

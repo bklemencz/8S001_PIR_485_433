@@ -1,0 +1,2 @@
+# 8S001_PIR_485_433
+ STM8S001 Motion Sensor To RS485 & EV1527
