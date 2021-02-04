@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "PIR Sensor with RS485 Interface"
 Date "2021-01-22"
-Rev "V1.0"
+Rev "V2.1"
 Comp "BK"
 Comment1 ""
 Comment2 ""
@@ -512,17 +512,6 @@ F 3 "" H 7150 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR011
-U 1 1 601AF92A
-P 5025 2325
-F 0 "#PWR011" H 5025 2175 50  0001 C CNN
-F 1 "+5V" H 5040 2498 50  0000 C CNN
-F 2 "" H 5025 2325 50  0001 C CNN
-F 3 "" H 5025 2325 50  0001 C CNN
-	1    5025 2325
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR010
 U 1 1 601AF9B7
 P 3275 1975
@@ -533,4 +522,10 @@ F 3 "" H 3275 1975 50  0001 C CNN
 	1    3275 1975
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5025 2325 4725 2325
+Text Label 4725 2325 0    50   ~ 0
+BTN
+Text Notes 4700 3975 0    50   ~ 0
+Change:\nV2.1 Multi Master Mode Compatibility: Transmit Enable Signal to BTN signal.
 $EndSCHEMATC
